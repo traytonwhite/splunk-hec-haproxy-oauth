@@ -18,4 +18,4 @@ authorization protocol. Overall the key things to have HAProxy check is that the
 This example config uses Auth0 and detailed explanation of steps are provided by HAProxy [here](https://www.haproxy.com/documentation/haproxy-configuration-tutorials/authentication/oauth-authorization/).
 
 The one additional step is mapping the JWT audience to a Splunk HEC token map. This is one of many ways to handle mapping
-multiple applications, clients, usecases to multiple HEC tokens. This offers further granularity of control.
+multiple applications, clients, and usecases to multiple HEC tokens. This offers further granularity of control.
